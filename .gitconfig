@@ -1,6 +1,12 @@
 [alias]
-	# View abbreviated SHA, ref names (like the --decorate option), subject, relative committer date, author name
+	# Well described below
 	l = log --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset'
+	#                              │                    │         │          │                  └─ author name
+	#                              │                    │         │          └─ committer date (relative)
+	#                              │                    │         └─ subject (commit message)
+	#                              │                    └─ ref names (like the --decorate option)
+	#                              └─ hash (abbreviated SHA)
+
 	# Add graph log version used above, and tries to add all the refs
 	lol = l --graph --all
 
