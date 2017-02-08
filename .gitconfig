@@ -1,0 +1,44 @@
+[alias]
+	# View abbreviated SHA, ref names (like the --decorate option), subject, relative committer date, author name
+	l = log --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset'
+	# Add graph log version used above, and tries to add all the refs
+	lol = l --graph --all
+
+	# Stash changes and fetch
+	sf = stash && fetch
+
+	# View the current status using the short format and add actual branch name
+	s = status -sb
+
+	# More verbose output about tags, branches or remotes
+	tags = tag -l
+	branches = branch -a
+	remotes = remote -v
+
+	# Find branches containing commit
+	fb = "!f() { git branch -a --contains $1; }; f"
+
+	# Find tags containing commit
+	ft = "!f() { git describe --always --contains $1; }; f"
+
+[color]
+	# Use colors in Git commands that are capable of colored output when
+	# outputting to the terminal. (This is the default setting in Git ≥ 1.8.4.)
+	ui = auto
+
+[help]
+	# Automatically correct and execute mistyped commands
+	autocorrect = 1
+
+[merge]
+	# Include summaries of merged commits in newly created merge commit messages
+	log = true
+
+[push]
+	# Check git help config and search for `push.default`
+	# `matching` vs `simple`
+	default = simple
+
+	# Make `git push` push relevant annotated tags when pushing branches out.
+	# I don't like to do that
+	followTags = false
