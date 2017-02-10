@@ -27,6 +27,9 @@
 	# Find tags containing commit
 	ft = "!f() { git describe --always --contains $1; }; f"
 
+	# List configuration with the origin of a config value
+	configuration = config --list --show-origin
+
 [color]
 	# Use colors in Git commands that are capable of colored output when
 	# outputting to the terminal. (This is the default setting in Git ≥ 1.8.4.)
@@ -52,3 +55,12 @@
 	# Make `git push` push relevant annotated tags when pushing branches out.
 	# I don't like to do that
 	followTags = false
+
+[user]
+	# The "user.useConfigOnly" configuration variable can be used to
+	# force the user to always set user.email & user.name configuration
+	# variables, serving as a reminder for those who work on multiple
+	# projects and do not want to put these in their $HOME/.gitconfig.
+	#
+	# https://github.com/git/git/blob/master/Documentation/RelNotes/2.8.0.txt
+	useConfigOnly = true
