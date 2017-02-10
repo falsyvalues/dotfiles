@@ -1,0 +1,30 @@
+{
+	"bootstrapped": true,
+	"in_process_packages":
+	[
+	],
+	"installed_packages":
+	[
+		"Babel",
+		"Babel Snippets",
+		"BracketHighlighter",
+		"DocBlockr",
+		"EditorConfig",
+		"ESLint",
+		"Git",
+		"Git Config",
+		"GitGutter",
+		"HTML Underscore Syntax",
+		"Jade",
+		"lebab",
+		"LESS",
+		"Markdown Preview",
+		"Package Control",
+		"PackageResourceViewer",
+		"Pretty JSON",
+		"Sass",
+		"SideBarEnhancements",
+		"SublimeLinter",
+		"SublimeLinter-contrib-eslint"
+	]
+}
