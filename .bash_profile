@@ -1,5 +1,19 @@
 if [ -f ~/.bashrc ]; then . ~/.bashrc; fi
 
+# http://unix.stackexchange.com/questions/18212/bash-history-ignoredups-and-erasedups-setting-conflict-with-common-history
+# http://stackoverflow.com/questions/19454837/bash-histsize-vs-histfilesize
+# number of lines or commands that are stored in memory in a history list while your bash session is ongoing.
+export HISTSIZE=2000
+# number of lines or commands that (a) are allowed in the history file at startup time of a session,
+# and (b) are stored in the history file at the end of your bash session for use in future sessions.
+export HISTFILESIZE=10000
+# https://www.gnu.org/software/bash/manual/html_node/Bash-Variables.html
+export HISTCONTROL=ignoreboth
+# enable the writing of history on the fly, rather than on logout by editing your ~/.bashrc and adding:
+# http://superuser.com/questions/649884/clear-terminal-output-of-last-command-only/649891#649891
+shopt -s histappend
+export PROMPT_COMMAND='history -a'
+
 SSH_ENV="$HOME/.ssh/environment"
 
 # import all id_rsa_* keys
