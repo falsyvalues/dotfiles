@@ -25,6 +25,7 @@
 		"SideBarEnhancements",
 		"SublimeLinter",
 		"SublimeLinter-contrib-eslint",
+		"SublimeLinter-flake8",
 		"SublimeLinter-json"
 	]
 }
