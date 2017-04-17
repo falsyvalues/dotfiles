@@ -1,6 +1,7 @@
 {
 	"extensions":
 	[
-		"local"
+		".local",
+		"config"
 	]
 }
