@@ -5,6 +5,7 @@
 	"caret_extra_width": 1,
 	"caret_style": "phase",
 	"color_scheme": "Packages/User/SublimeLinter/Monokai (SL).tmTheme",
+	"default_line_ending": "unix",
 	"detect_slow_plugins": true,
 	"fallback_encoding": "UTF-8",
 	"font_size": 10,
