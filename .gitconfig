@@ -49,6 +49,8 @@
 [merge]
 	# Include summaries of merged commits in newly created merge commit messages
 	log = true
+	# When set to only, only such fast-forward merges are allowed (equivalent to giving the --ff-only option from the command line)
+	ff = only
 
 [push]
 	# Check git help config and search for `push.default`
