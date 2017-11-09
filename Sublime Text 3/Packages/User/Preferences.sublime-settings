@@ -5,6 +5,7 @@
 	"caret_extra_width": 1,
 	"caret_style": "phase",
 	"color_scheme": "Packages/Color Scheme - Default/Monokai.tmTheme",
+	"copy_with_empty_selection": false,
 	"default_line_ending": "unix",
 	"detect_slow_plugins": true,
 	"fallback_encoding": "UTF-8",
@@ -13,6 +14,7 @@
 	"highlight_modified_tabs": true,
 	"ignored_packages":
 	[
+		"Package Control",
 		"Vintage"
 	],
 	"show_encoding": true,
