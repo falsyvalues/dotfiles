@@ -9,5 +9,7 @@
 	"editor.multiCursorModifier": "ctrlCmd",
 	"editor.snippetSuggestions": "top",
 	"editor.formatOnPaste": true,
-	"editor.minimap.enabled": false
+	"editor.minimap.enabled": false,
+	"files.eol": "\n",
+	"extensions.autoUpdate": true
 }
