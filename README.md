@@ -13,4 +13,4 @@ dotfiles
 Sublime Text 3 configuration contains only necessary files for proper [syncing](https://packagecontrol.io/docs/syncing) as recommended.
 
 ## Visual Studio Code
-Visual Studio Code configuration is on basic level right now, but I will try go align 1:1 Sublime with VS Code.
+Visual Studio Code configuration is on basic level right now, but I will try go align 1:1 Sublime with VS Code. Read more on [docs](https://code.visualstudio.com/docs) site.
