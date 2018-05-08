@@ -5,6 +5,7 @@
 	],
 	"installed_packages":
 	[
+		"A File Icon",
 		"Babel",
 		"Babel Snippets",
 		"BracketHighlighter",
@@ -21,11 +22,19 @@
 		"Markdown Preview",
 		"Package Control",
 		"PackageResourceViewer",
+		"PHP-Twig",
 		"Pretty JSON",
 		"Sass",
+		"SCSS",
 		"SideBarEnhancements",
 		"SublimeLinter",
-		"SublimeLinter-contrib-eslint",
-		"SublimeLinter-json"
+		"SublimeLinter-coffeelint",
+		"SublimeLinter-eslint",
+		"SublimeLinter-json",
+		"SublimeLinter-stylelint",
+		"SublimeLinter-tslint",
+		"Terminal",
+		"Text Pastry",
+		"TypeScript"
 	]
 }
