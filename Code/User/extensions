@@ -1,0 +1,6 @@
+code --install-extension dbaeumer.vscode-eslint
+code --install-extension eamodio.gitlens
+code --install-extension EditorConfig.EditorConfig
+code --install-extension eg2.tslint
+code --install-extension shinnn.stylelint
+code --install-extension whatwedo.twig

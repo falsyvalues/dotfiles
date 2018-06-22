@@ -1,9 +1,8 @@
-// Place your settings in this file to overwrite the default settings
 {
 	// Controls the font family.
-	"editor.fontFamily": "Consolas",
+	"editor.fontFamily": "Monaco",
 	// Controls the font size.
-	"editor.fontSize": 14,
+	"editor.fontSize": 13,
 	"workbench.colorTheme": "Monokai",
 	"sublimeTextKeymap.promptV3Features": true,
 	"editor.multiCursorModifier": "ctrlCmd",
@@ -11,5 +10,17 @@
 	"editor.formatOnPaste": true,
 	"editor.minimap.enabled": false,
 	"files.eol": "\n",
-	"extensions.autoUpdate": true
+	// When enabled, will trim trailing whitespace when saving a file.
+	"files.trimTrailingWhitespace": false,
+	"extensions.autoUpdate": true,
+	"gitlens.advanced.messages": {
+		"suppressShowKeyBindingsNotice": true
+	},
+	"editor.formatOnSave": true,
+	// turn it off for JS
+	"[javascript]": {
+		"editor.formatOnSave": false
+	},
+	"eslint.autoFixOnSave": true,
+	"eslint.alwaysShowStatus": true
 }
