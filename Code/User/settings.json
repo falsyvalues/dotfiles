@@ -4,23 +4,29 @@
 	// Controls the font size.
 	"editor.fontSize": 13,
 	"workbench.colorTheme": "Monokai",
-	"sublimeTextKeymap.promptV3Features": true,
 	"editor.multiCursorModifier": "ctrlCmd",
 	"editor.snippetSuggestions": "top",
 	"editor.formatOnPaste": true,
 	"editor.minimap.enabled": false,
 	"files.eol": "\n",
-	// When enabled, will trim trailing whitespace when saving a file.
-	"files.trimTrailingWhitespace": false,
+	"files.trimTrailingWhitespace": true,
 	"extensions.autoUpdate": true,
 	"gitlens.advanced.messages": {
 		"suppressShowKeyBindingsNotice": true
 	},
-	"editor.formatOnSave": true,
+	"editor.formatOnSave": false,
 	// turn it off for JS
 	"[javascript]": {
 		"editor.formatOnSave": false
 	},
 	"eslint.autoFixOnSave": true,
-	"eslint.alwaysShowStatus": true
+	"eslint.alwaysShowStatus": true,
+	"gitlens.codeLens.scopes": [
+		"document"
+	],
+	"editor.emptySelectionClipboard": false,
+	"editor.detectIndentation": true,
+	"editor.find.seedSearchStringFromSelection": true,
+	"editor.tabSize": 2,
+	"editor.trimAutoWhitespace": true
 }

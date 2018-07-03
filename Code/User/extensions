@@ -4,3 +4,4 @@ code --install-extension EditorConfig.EditorConfig
 code --install-extension eg2.tslint
 code --install-extension shinnn.stylelint
 code --install-extension whatwedo.twig
+code --install-extension ms-vscode.sublime-keybindings
